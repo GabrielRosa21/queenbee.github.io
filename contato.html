@@ -1,0 +1,400 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>Queen Bee</title>
+		
+		<!-- Favicon -->
+        <link rel="icon" href="img/qbblack.png">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="css/nice-select.css">
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- icofont CSS -->
+        <link rel="stylesheet" href="css/icofont.css">
+		<!-- Slicknav -->
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="css/owl-carousel.css">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="css/datepicker.css">
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.min.css">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		
+    </head>
+    <body>
+	
+<!-- Preloader -->
+<div class="preloader">
+    <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+        <div class="indicator"> 
+            <img src="img/qbblack.png" alt="Preloader Image" width="50" height="50">
+        </div>
+    </div>
+</div>
+<!-- End Preloader -->
+	
+	
+		<!-- Header Area -->
+		<header class="header" >
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.html"><img src="img/logo.png" alt="#"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-7 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+											<li class="active"><a href="#">Pagina Inicial <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="index.html">Página Inicial</a></li>
+													<li><a href="index.html#sobre-nos">Sobre Nós</a></li>												
+												</ul>
+											</li>
+											
+											<li class="active"><a href="#">Produtos <i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li><a href="produtos.html">Produtos</a></li>
+													<li><a href="planos.html">Planos Futuros</a></li>													
+												</ul>
+											</li>											
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+							<div class="col-lg-2 col-12">
+								<div class="get-quote">
+									<a href="contato.html" class="btn">Contato</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+				
+
+<!-- Start Contact Us -->
+<section class="contact-us section">
+    <div class="container">
+        <div class="inner">
+            <div class="row"> 
+                <div class="col-lg-6">
+                    <div class="contact-us-left">
+  <!-- Start Map section -->
+  <section id="mu-map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d6148.453110261854!2d-46.61115960172473!3d-23.608202614851447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x94ce5b99ed7bb73f%3A0x2b8a54f197351b65!2sVila%20Nair%2C%20S%C3%A3o%20Paulo%20-%20State%20of%20S%C3%A3o%20Paulo!3m2!1d-23.607269199999998!2d-46.609009!5e0!3m2!1sen!2sbr!4v1731264643252!5m2!1sen!2sbr" width="565" height="573" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-us-form">
+                        <h2>Entre em Contato</h2>
+                        <p>Se você tiver alguma dúvida, sinta-se à vontade para entrar em contato conosco.</p>
+
+                        <!-- Mensagem de confirmação -->
+                        <div id="confirmationMessage" style="display: none; padding: 10px; margin-bottom: 15px; background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; border-radius: 5px;">
+                            Sua mensagem foi enviada com sucesso! Entraremos em contato em breve.
+                        </div>
+
+                        <!-- Formulário -->
+                        <form class="form" id="contactForm" onsubmit="handleSubmit(event)">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Nome" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Email" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="phone" placeholder="Telefone" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="subject" placeholder="Assunto" required="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <textarea name="message" placeholder="Sua Mensagem" required=""></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group login-btn">
+                                        <button class="btn" type="submit">Enviar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- End Formulário -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Contact Us -->
+
+<script>
+    // Função para lidar com o envio do formulário
+    function handleSubmit(event) {
+        event.preventDefault(); // Evita o comportamento padrão de envio do formulário
+
+        // Exibe a mensagem de confirmação
+        const confirmationMessage = document.getElementById("confirmationMessage");
+        confirmationMessage.style.display = "block";
+
+        // Limpa os campos do formulário
+        document.getElementById("contactForm").reset();
+
+        // Oculta a mensagem de confirmação após 5 segundos
+        setTimeout(() => {
+            confirmationMessage.style.display = "none";
+        }, 5000);
+    }
+</script>
+
+
+
+		<div class="faq-container" id="">
+			<h1>FAQ - Queen Bee</h1>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">1. O que é um Beewrap?</h3>
+				<p>O Beewrap é uma alternativa sustentável ao plástico filme, usado para embalar alimentos de forma segura e ecológica. É feito de tecido de algodão orgânico revestido com cera de abelha, que permite a vedação dos alimentos, mantendo-os frescos por mais tempo.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">2. Como usar o Beewrap?</h3>
+				<p>É fácil! Basta aquecer o Beewrap entre as mãos para moldá-lo ao redor do alimento ou recipiente. Quando o tecido esfria, ele cria uma vedação firme. Ele é ideal para cobrir frutas, legumes, pães e queijos, ou para embrulhar lanches.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">3. Quais são os ingredientes do Beewrap Queen Bee?</h3>
+				<p>Nossos Beewraps são feitos de tecido de algodão orgânico, cera de abelha de alta qualidade, resina de árvore e óleo de jojoba. Esses ingredientes são naturais, seguros para contato com alimentos e ajudam a prolongar a durabilidade dos produtos embalados.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">4. O Beewrap Queen Bee é reutilizável?</h3>
+				<p>Sim! Com os cuidados adequados, nossos Beewraps podem ser reutilizados por até um ano ou mais, dependendo da frequência de uso. Isso contribui para a redução de resíduos e substitui o plástico descartável no dia a dia.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">5. Como faço para limpar meu Beewrap?</h3>
+				<p>Lave o Beewrap com água fria e um pouco de sabão neutro. Evite água quente, pois pode derreter a cera. Deixe secar ao ar livre e guarde em um local fresco e seco, longe de fontes de calor.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">6. Posso usar o Beewrap para qualquer tipo de alimento?</h3>
+				<p>O Beewrap Queen Bee é excelente para frutas, vegetais, pães, queijos e até mesmo lanches. No entanto, não é recomendado para carnes cruas, pois pode ser difícil de limpar adequadamente nesses casos.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">7. Posso usar o Beewrap no congelador?</h3>
+				<p>Sim, nossos Beewraps podem ser usados no congelador, mas recomenda-se limitar o tempo de congelamento a algumas semanas para garantir a durabilidade do produto. Ao retirar do congelador, deixe o Beewrap retornar à temperatura ambiente antes de manuseá-lo para evitar rachaduras.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">8. O Beewrap Queen Bee é compostável?</h3>
+				<p>Sim! Quando chegar ao fim da sua vida útil, o Beewrap pode ser compostado, pois é feito de materiais naturais. Também pode ser cortado em tiras para ser usado como acendedor de fogo em fogueiras ou churrasqueiras.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">9. Como é a durabilidade do Beewrap?</h3>
+				<p>Com cuidados adequados, o Beewrap Queen Bee pode durar até um ano ou mais. Evite contato com calor excessivo e produtos químicos, e ele será um companheiro duradouro e sustentável.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">10. O Beewrap pode ser personalizado?</h3>
+				<p>Atualmente, oferecemos várias estampas selecionadas para agradar a diferentes estilos, mas não temos opções de personalização individual. Estamos sempre abertos a sugestões e acompanhando as tendências para oferecer novas estampas.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">11. Como o Beewrap ajuda o meio ambiente?</h3>
+				<p>Cada Beewrap ajuda a evitar o uso de plástico descartável, que leva séculos para se decompor. Ao optar por um Beewrap, você está reduzindo a poluição e incentivando o consumo consciente e sustentável.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">12. Onde posso comprar o Beewrap Queen Bee?</h3>
+				<p>Nossos Beewraps estão disponíveis no site oficial da Queen Bee e em lojas parceiras. Consulte a seção de *Onde Comprar* em nosso site para encontrar a loja mais próxima de você.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">13. Qual é a política de troca e devolução dos produtos Queen Bee?</h3>
+				<p>Nossa política de troca e devolução é transparente e busca oferecer uma experiência de compra satisfatória. Em caso de defeito de fabricação, faremos a substituição do produto. Para saber mais, consulte nossa página de Trocas e Devoluções.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">14. Existe algum curso ou instrução sobre como utilizar o Beewrap?</h3>
+				<p>Sim! Em nosso site, oferecemos guias e vídeos explicativos que ensinam como usar, limpar e cuidar do seu Beewrap. Acreditamos que educação é fundamental para um consumo consciente.</p>
+			</div>
+	
+			<div class="faq-item">
+				<h3 onclick="toggleAnswer(this)">15. Por que o nome "Queen Bee"?</h3>
+				<p>Escolhemos o nome Queen Bee para homenagear as abelhas, que desempenham um papel crucial no ecossistema e nos fornecem a cera de abelha, um dos principais componentes dos nossos produtos. Queremos inspirar nossos clientes a fazer escolhas sustentáveis e cuidar do meio ambiente, assim como as abelhas cuidam da natureza.</p>
+			</div>
+		</div>
+	
+		<script>
+			// Função para exibir/esconder as respostas
+			function toggleAnswer(element) {
+				const answer = element.nextElementSibling;
+				answer.classList.toggle("show");
+			}
+		</script>
+
+
+
+		
+		<!-- Footer Area -->
+		<footer id="footer" class="footer ">
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Redes Sociais</h2>
+								<p>Fique por dentro de todas as nossas novidades e atualizações! Siga-nos em nossas redes sociais e seja o primeiro a saber sobre nossos lançamentos, promoções e muito mais. Não perca nenhuma atualização – venha fazer parte da nossa comunidade!</p>
+								<!-- Social -->
+								<ul class="social">
+									<li><a href="https://www.instagram.com/queen.beeez_" target="_blank"><i class="icofont-instagram"></i></a></li>
+								</ul>
+								<!-- End Social -->
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer f-link">
+								<h2>Atalhos</h2>
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-12">
+										<ul>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Pagina Inicial</a></li>
+											<li><a href="index.html#sobre-nos"><i class="fa fa-caret-right" aria-hidden="true"></i>Sobre Nos</a></li>
+											<li><a href="contato.html#contactForm"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
+											<li><a href="planos.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Planos Futuros</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>Horário de Funcionamento</h2>
+								<li class="day">
+									<span class="weekday">Segunda - Sexta</span>
+									<span class="hours">8:00-17:00</span>
+								</li>								
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Footer Top -->
+			<!-- Copyright -->
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-12">
+							<div class="copyright-content">
+								<p>© Copyright 2024 QUEEN BEE</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Copyright -->
+		</footer>
+		<!--/ End Footer Area -->
+		
+		<!-- jquery Min JS -->
+        <script src="js/jquery.min.js"></script>
+		<!-- jquery Migrate JS -->
+		<script src="js/jquery-migrate-3.0.0.js"></script>
+		<!-- jquery Ui JS -->
+		<script src="js/jquery-ui.min.js"></script>
+		<!-- Easing JS -->
+        <script src="js/easing.js"></script>
+		<!-- Color JS -->
+		<script src="js/colors.js"></script>
+		<!-- Popper JS -->
+		<script src="js/popper.min.js"></script>
+		<!-- Bootstrap Datepicker JS -->
+		<script src="js/bootstrap-datepicker.js"></script>
+		<!-- Jquery Nav JS -->
+        <script src="js/jquery.nav.js"></script>
+		<!-- Slicknav JS -->
+		<script src="js/slicknav.min.js"></script>
+		<!-- ScrollUp JS -->
+        <script src="js/jquery.scrollUp.min.js"></script>
+		<!-- Niceselect JS -->
+		<script src="js/niceselect.js"></script>
+		<!-- Tilt Jquery JS -->
+		<script src="js/tilt.jquery.min.js"></script>
+		<!-- Owl Carousel JS -->
+        <script src="js/owl-carousel.js"></script>
+		<!-- counterup JS -->
+		<script src="js/jquery.counterup.min.js"></script>
+		<!-- Steller JS -->
+		<script src="js/steller.js"></script>
+		<!-- Wow JS -->
+		<script src="js/wow.min.js"></script>
+		<!-- Magnific Popup JS -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Counter Up CDN JS -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<!-- Google Map API Key JS -->
+		<script src="https://maps.google.com/maps/api/js?key=AIzaSyDGqTyqoPIvYxhn_Sa7ZrK5bENUWhpCo0w"></script>
+		<!-- Gmaps JS -->
+		<script src="js/gmaps.min.js"></script>
+		<!-- Map Active JS -->
+		<script src="js/map-active.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+    </body>
+</html>
