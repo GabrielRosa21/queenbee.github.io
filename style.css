@@ -3983,9 +3983,9 @@ h1{
 	margin-right:0px;
 }
 .footer .single-footer .social li a {
-	height: 34px;
-	width: 34px;
-	line-height: 34px;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
 	text-align: center;
 	border: 1px solid black;
 	text-align: center;
@@ -3993,7 +3993,7 @@ h1{
 	border-radius: 100%;
 	display: block;
 	color:#fff;
-	font-size: 16px;
+	font-size: 40px;
 }
 .footer .single-footer .social li a:hover{
 	color:#ffa500;
