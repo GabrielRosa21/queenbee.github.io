@@ -1046,8 +1046,8 @@ h1{
 }
 
 .video-image img {
-    width: 475px;  /* Largura limitada */
-    height: 377px; /* Altura limitada */
+    width: 100%;  /* Largura limitada */
+    height: 400px; /* Altura limitada */
     object-fit: fill; /* Ajusta a imagem para cobrir o espaço sem distorção */
 }
 
