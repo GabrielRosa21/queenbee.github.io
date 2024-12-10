@@ -4429,7 +4429,7 @@ h1{
 
 .payment-image {
     max-width: auto; /* Ajuste o tamanho conforme necessário */
-    height: 250px;
+    height: 150px;
 	margin-top: 50px;
 }
 .payment-title {
