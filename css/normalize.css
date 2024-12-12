@@ -443,6 +443,7 @@ Preloader Area CSS
 	border: none;
 	border-radius: 0;
 	border-radius:4px;
+	margin-top:25px;
 }
 .btn:hover{
 	color:#fff;
