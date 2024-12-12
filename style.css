@@ -398,10 +398,12 @@ h1{
 	opacity:1;
 	visibility:visible;
 	width: 100%;
+	margin-top: 25px;
 }
 .header .nav li.active a{
 	color:#ffa500;
 	font-size: 20px;
+	margin-top: 25px;
 }
 .header .nav li:hover a:before{
 	opacity:1;
