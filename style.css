@@ -635,7 +635,7 @@ h1{
 =============================*/
 /* Ajusta a altura do slider para ocupar a tela inteira */
 .slider .single-slider {
-    height: 100vh;                           /* Ajusta para ocupar 100% da altura da janela */
+    height: 65vh;                           /* Ajusta para ocupar 100% da altura da janela */
     background-size: cover;                  /* Garantir que a imagem cubra toda a área */
     background-position: center;             /* Centraliza a imagem de fundo */
     background-repeat: no-repeat;            /* Garante que a imagem de fundo não se repita */
