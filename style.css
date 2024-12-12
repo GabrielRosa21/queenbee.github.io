@@ -4142,20 +4142,38 @@ h1{
 .footer .single-footer .newsletter-inner .button:hover i{
 	color:#2C2D3F;
 }
-.footer .copyright{
-	background:#ffa500;
-	padding:25px 0px 25px 0px;
-	text-align:center;
+.footer .copyright {
+    background: #ffa500; /* Cor de fundo laranja */
+    padding: 25px 0px; /* Espaçamento superior e inferior */
+    text-align: center; /* Centraliza o conteúdo */
 }
-.footer .copyright .copyright-content p{
-	color:black;
+
+.footer .copyright .copyright-content p {
+    color: black; /* Cor do texto */
+    display: inline; /* Faz o texto se comportar como inline */
+    vertical-align: middle; /* Alinha o texto verticalmente ao meio */
 }
-.footer .copyright .copyright-content p a{
-	color:black;
-	font-weight:400;
-	text-decoration:underline;
-	display:inline-block;
-	margin-left:4px;
+
+.footer .copyright .copyright-content p a {
+    color: black; /* Cor preta para os links */
+    font-weight: 400; /* Peso da fonte normal */
+    text-decoration: underline; /* Sublinha os links */
+    display: inline-block; /* Faz o link se comportar como bloco inline */
+    margin-left: 4px; /* Margem à esquerda do link */
+}
+
+.footer .copyright .copyright-content img {
+    width: 32px; /* Largura das imagens */
+    height: 32px; /* Altura das imagens */
+    vertical-align: middle; /* Alinha as imagens ao meio do texto */
+}
+
+.footer .copyright .copyright-content img:first-child {
+    margin-right: 5px; /* Margem à direita da primeira imagem */
+}
+
+.footer .copyright .copyright-content img:last-child {
+    margin-left: 5px; /* Margem à esquerda da segunda imagem */
 }
 /*=========================
 	End Footer CSS
